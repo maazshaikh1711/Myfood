@@ -1,0 +1,171 @@
+/*big tablet to 1140px : from 1024px to 1140px */
+@media only screen and (max-width: 1200px) {
+    
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+    max-width: 100%;
+    margin: 0 2%;
+    }
+}
+
+/*small tablets to big tablets : from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 15px; }
+    section {padding: 50px 0;}
+    
+    .long-copy {
+    
+        width: 80%;  /*we can take it wider since more white space is left */
+        margin-bottom: 30px;
+        margin-left: 10%;   /* since total is 100...80 already taken by text so if 10 for left then 10 for right  */
+    }
+
+    .icon-size:hover,
+    .icon-size:active{
+        font-size: 350%;
+        margin-bottom: 0.5%;
+    }
+    
+    .steps-box { margin-top: -29px;}
+    
+    .works-step { margin-top: 40px; }
+    
+    .works-step div {
+        height: 55px;
+        width: 55px;
+        padding-top: 15px;
+        margin-left: 25px;
+        margin-right: 20px;
+        margin-top: -10px;
+    }
+    
+    .app-screen {
+        width: 50%;
+    }
+    
+    .btn-app img{
+        height: 50px;
+        width: auto;
+        margin-right: -15px;
+    }
+    
+    .icon-small {
+        width: 15px;
+        font-size: 120%;
+        vertical-align: middle;  /*just for adjustment with related text to look good*/
+        margin-top: -2px;
+        margin-right: 5px;
+    }
+    
+}
+
+/*small phones to small tablets : from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    body{ font-size: 16px;}
+    section{ padding: 30px 0px;}
+    
+    .row,
+    hero-text-box { padding: 0 4%; }
+    
+    /*.main-nav { display: none;}  /* here nav is directly eliminated....*/  
+
+     /*.mobile-nav-icon { display: inline-block; }*/
+    
+    .main-nav{
+        float: left;
+        margin: 55px 0 0 30px;
+    }
+    
+    .main-nav ul{
+        display: block;
+    }
+    
+    .main-nav ul a:link,
+    .main-nav ul a:visited{
+        display: block;
+        border: 0;
+        padding: 5px 0;
+    }
+    
+    nav a:hover,
+    nav a:active{
+        border: 0;
+    }
+    
+    
+    .sticky .logo { display: none; }
+    .sticky .logo-black {
+        height: 60px;
+        width: auto;
+        float: left;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        display: block; 
+    }
+
+    .sticky .main-nav { margin-top: 20px; }
+
+    .sticky .main-nav ul a:link,
+    .sticky .main-nav ul a:visited {
+        color: #555;
+        text-transform: uppercase; 
+        padding: 5px 0 5px 0 ;
+    }
+
+    /*.sticky .mobile-nav-icon i{ 
+        color: #555;
+        margin-top: 10px;
+    }
+    
+    */
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 5% 0;    
+    }
+    .long-copy { 
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    h1{ font-size: 160%; }
+    h2{ font-size: 140%; }
+    
+    .works-step { margin-top: 35px; }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        padding-top: 7px;           
+    }
+    
+    /* for img of iphone */
+    .steps-box:first-child {
+        text-align: center;
+    }
+    
+    /* for img too */
+    .app-screen {
+        width: 30%;
+    }
+    
+   .icon-size:hover,
+   .icon-size:active{
+        margin-bottom: 0.2%;
+    }
+    
+}
+
+
+/*Small phones from 0 to 480px..........generally iphone 4 and 5*/
+@media only screen and (max-width: 480px) {
+    
+    section { padding: 25px 0;}
+    .contact-form { width: 100%; }
+
+}
