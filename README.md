@@ -1,3 +1,6 @@
+#Deployed on Heroku :
+https://myfood1711.herokuapp.com/
+
 # Myfood
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/52784177/94477256-43214f00-01ef-11eb-93b2-fdd40dedbb95.gif)
